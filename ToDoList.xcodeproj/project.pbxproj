@@ -6,6 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		13770C252D79B90A00E10265 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 13770C242D79B90A00E10265 /* FirebaseAuth */; };
+		13770C272D79B90A00E10265 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 13770C262D79B90A00E10265 /* FirebaseFirestore */; };
+		13DC24792D8D244F002ED3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DC246E2D8D244F002ED3E6 /* Preview Assets.xcassets */; };
+		13DC247A2D8D244F002ED3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24752D8D244F002ED3E6 /* Assets.xcassets */; };
+		13DC247B2D8D244F002ED3E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24762D8D244F002ED3E6 /* GoogleService-Info.plist */; };
+		13DC247C2D8D244F002ED3E6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24712D8D244F002ED3E6 /* CircleImage.swift */; };
+		13DC247D2D8D244F002ED3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24722D8D244F002ED3E6 /* ContentView.swift */; };
+		13DC247E2D8D244F002ED3E6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24732D8D244F002ED3E6 /* MapView.swift */; };
+		13DC247F2D8D244F002ED3E6 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24772D8D244F002ED3E6 /* ToDoListApp.swift */; };
+		13DC24812D8D24D6002ED3E6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24802D8D24D6002ED3E6 /* Landmark.swift */; };
+		13DC248E2D8D3EA4002ED3E6 /* chincoteague@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24842D8D3EA4002ED3E6 /* chincoteague@2x.jpg */; };
+		13DC248F2D8D3EA4002ED3E6 /* hiddenlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24852D8D3EA4002ED3E6 /* hiddenlake@2x.jpg */; };
+		13DC24902D8D3EA4002ED3E6 /* rainbowlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24882D8D3EA4002ED3E6 /* rainbowlake@2x.jpg */; };
+		13DC24912D8D3EA4002ED3E6 /* lakemcdonald@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24872D8D3EA4002ED3E6 /* lakemcdonald@2x.jpg */; };
+		13DC24922D8D3EA4002ED3E6 /* chilkoottrail@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24832D8D3EA4002ED3E6 /* chilkoottrail@2x.jpg */; };
+		13DC24932D8D3EA4002ED3E6 /* silversalmoncreek@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24892D8D3EA4002ED3E6 /* silversalmoncreek@2x.jpg */; };
+		13DC24942D8D3EA4002ED3E6 /* stmarylake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC248A2D8D3EA4002ED3E6 /* stmarylake@2x.jpg */; };
+		13DC24952D8D3EA4002ED3E6 /* umbagog@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC248C2D8D3EA4002ED3E6 /* umbagog@2x.jpg */; };
+		13DC24962D8D3EA4002ED3E6 /* twinlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC248B2D8D3EA4002ED3E6 /* twinlake@2x.jpg */; };
+		13DC24972D8D3EA4002ED3E6 /* charleyrivers@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24822D8D3EA4002ED3E6 /* charleyrivers@2x.jpg */; };
+		13DC24982D8D3EA4002ED3E6 /* icybay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24862D8D3EA4002ED3E6 /* icybay@2x.jpg */; };
+		13DC249A2D8D3F5D002ED3E6 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DC24992D8D3F5D002ED3E6 /* turtlerock@2x.jpg */; };
+		13DC249C2D8D45D1002ED3E6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC249B2D8D45D1002ED3E6 /* ModelData.swift */; };
+		13DC249E2D8D4E55002ED3E6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 13DC249D2D8D4E55002ED3E6 /* landmarkData.json */; };
+		13DC24A02D8D4ED6002ED3E6 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC249F2D8D4ED6002ED3E6 /* LandmarkRow.swift */; };
+		13DC24A22D8D536C002ED3E6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24A12D8D536C002ED3E6 /* LandmarkList.swift */; };
+		13DC24A42D8D54EC002ED3E6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24A32D8D54EC002ED3E6 /* LandmarkDetail.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		13770BF52D79A3F800E10265 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +57,34 @@
 		13770BE42D79A3F700E10265 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13770BF42D79A3F800E10265 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13770BFE2D79A3F800E10265 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DC246E2D8D244F002ED3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13DC24712D8D244F002ED3E6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		13DC24722D8D244F002ED3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13DC24732D8D244F002ED3E6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		13DC24752D8D244F002ED3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13DC24762D8D244F002ED3E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13DC24772D8D244F002ED3E6 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
+		13DC24802D8D24D6002ED3E6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		13DC24822D8D3EA4002ED3E6 /* charleyrivers@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charleyrivers@2x.jpg"; sourceTree = "<group>"; };
+		13DC24832D8D3EA4002ED3E6 /* chilkoottrail@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chilkoottrail@2x.jpg"; sourceTree = "<group>"; };
+		13DC24842D8D3EA4002ED3E6 /* chincoteague@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chincoteague@2x.jpg"; sourceTree = "<group>"; };
+		13DC24852D8D3EA4002ED3E6 /* hiddenlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hiddenlake@2x.jpg"; sourceTree = "<group>"; };
+		13DC24862D8D3EA4002ED3E6 /* icybay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icybay@2x.jpg"; sourceTree = "<group>"; };
+		13DC24872D8D3EA4002ED3E6 /* lakemcdonald@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lakemcdonald@2x.jpg"; sourceTree = "<group>"; };
+		13DC24882D8D3EA4002ED3E6 /* rainbowlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbowlake@2x.jpg"; sourceTree = "<group>"; };
+		13DC24892D8D3EA4002ED3E6 /* silversalmoncreek@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silversalmoncreek@2x.jpg"; sourceTree = "<group>"; };
+		13DC248A2D8D3EA4002ED3E6 /* stmarylake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stmarylake@2x.jpg"; sourceTree = "<group>"; };
+		13DC248B2D8D3EA4002ED3E6 /* twinlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twinlake@2x.jpg"; sourceTree = "<group>"; };
+		13DC248C2D8D3EA4002ED3E6 /* umbagog@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "umbagog@2x.jpg"; sourceTree = "<group>"; };
+		13DC24992D8D3F5D002ED3E6 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
+		13DC249B2D8D45D1002ED3E6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		13DC249D2D8D4E55002ED3E6 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		13DC249F2D8D4ED6002ED3E6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		13DC24A12D8D536C002ED3E6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		13DC24A32D8D54EC002ED3E6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		13770BE62D79A3F700E10265 /* ToDoList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoList;
-			sourceTree = "<group>";
-		};
 		13770BF72D79A3F800E10265 /* ToDoListTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ToDoListTests;
@@ -52,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13770C252D79B90A00E10265 /* FirebaseAuth in Frameworks */,
+				13770C272D79B90A00E10265 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +127,10 @@
 		13770BDB2D79A3F700E10265 = {
 			isa = PBXGroup;
 			children = (
-				13770BE62D79A3F700E10265 /* ToDoList */,
+				13DC24782D8D244F002ED3E6 /* ToDoList */,
 				13770BF72D79A3F800E10265 /* ToDoListTests */,
 				13770C012D79A3F800E10265 /* ToDoListUITests */,
+				13770C232D79B90A00E10265 /* Frameworks */,
 				13770BE52D79A3F700E10265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +143,85 @@
 				13770BFE2D79A3F800E10265 /* ToDoListUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		13770C232D79B90A00E10265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13DC246D2D8D244F002ED3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24802D8D24D6002ED3E6 /* Landmark.swift */,
+				13DC249B2D8D45D1002ED3E6 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13DC246F2D8D244F002ED3E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13DC246E2D8D244F002ED3E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13DC24702D8D244F002ED3E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24992D8D3F5D002ED3E6 /* turtlerock@2x.jpg */,
+				13DC248D2D8D3EA4002ED3E6 /* Images */,
+				13DC249D2D8D4E55002ED3E6 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13DC24742D8D244F002ED3E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24712D8D244F002ED3E6 /* CircleImage.swift */,
+				13DC24722D8D244F002ED3E6 /* ContentView.swift */,
+				13DC24732D8D244F002ED3E6 /* MapView.swift */,
+				13DC249F2D8D4ED6002ED3E6 /* LandmarkRow.swift */,
+				13DC24A12D8D536C002ED3E6 /* LandmarkList.swift */,
+				13DC24A32D8D54EC002ED3E6 /* LandmarkDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13DC24782D8D244F002ED3E6 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24772D8D244F002ED3E6 /* ToDoListApp.swift */,
+				13DC24762D8D244F002ED3E6 /* GoogleService-Info.plist */,
+				13DC24752D8D244F002ED3E6 /* Assets.xcassets */,
+				13DC24742D8D244F002ED3E6 /* View */,
+				13DC246D2D8D244F002ED3E6 /* Model */,
+				13DC24702D8D244F002ED3E6 /* Resources */,
+				13DC246F2D8D244F002ED3E6 /* Preview Content */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		13DC248D2D8D3EA4002ED3E6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24822D8D3EA4002ED3E6 /* charleyrivers@2x.jpg */,
+				13DC24832D8D3EA4002ED3E6 /* chilkoottrail@2x.jpg */,
+				13DC24842D8D3EA4002ED3E6 /* chincoteague@2x.jpg */,
+				13DC24852D8D3EA4002ED3E6 /* hiddenlake@2x.jpg */,
+				13DC24862D8D3EA4002ED3E6 /* icybay@2x.jpg */,
+				13DC24872D8D3EA4002ED3E6 /* lakemcdonald@2x.jpg */,
+				13DC24882D8D3EA4002ED3E6 /* rainbowlake@2x.jpg */,
+				13DC24892D8D3EA4002ED3E6 /* silversalmoncreek@2x.jpg */,
+				13DC248A2D8D3EA4002ED3E6 /* stmarylake@2x.jpg */,
+				13DC248B2D8D3EA4002ED3E6 /* twinlake@2x.jpg */,
+				13DC248C2D8D3EA4002ED3E6 /* umbagog@2x.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +239,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				13770BE62D79A3F700E10265 /* ToDoList */,
-			);
 			name = ToDoList;
 			packageProductDependencies = (
+				13770C242D79B90A00E10265 /* FirebaseAuth */,
+				13770C262D79B90A00E10265 /* FirebaseFirestore */,
 			);
 			productName = ToDoList;
 			productReference = 13770BE42D79A3F700E10265 /* ToDoList.app */;
@@ -195,6 +326,9 @@
 			);
 			mainGroup = 13770BDB2D79A3F700E10265;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				13770C222D79B77500E10265 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 13770BE52D79A3F700E10265 /* Products */;
 			projectDirPath = "";
@@ -212,6 +346,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DC24792D8D244F002ED3E6 /* Preview Assets.xcassets in Resources */,
+				13DC248E2D8D3EA4002ED3E6 /* chincoteague@2x.jpg in Resources */,
+				13DC248F2D8D3EA4002ED3E6 /* hiddenlake@2x.jpg in Resources */,
+				13DC24902D8D3EA4002ED3E6 /* rainbowlake@2x.jpg in Resources */,
+				13DC24912D8D3EA4002ED3E6 /* lakemcdonald@2x.jpg in Resources */,
+				13DC24922D8D3EA4002ED3E6 /* chilkoottrail@2x.jpg in Resources */,
+				13DC24932D8D3EA4002ED3E6 /* silversalmoncreek@2x.jpg in Resources */,
+				13DC24942D8D3EA4002ED3E6 /* stmarylake@2x.jpg in Resources */,
+				13DC24952D8D3EA4002ED3E6 /* umbagog@2x.jpg in Resources */,
+				13DC249A2D8D3F5D002ED3E6 /* turtlerock@2x.jpg in Resources */,
+				13DC24962D8D3EA4002ED3E6 /* twinlake@2x.jpg in Resources */,
+				13DC24972D8D3EA4002ED3E6 /* charleyrivers@2x.jpg in Resources */,
+				13DC24982D8D3EA4002ED3E6 /* icybay@2x.jpg in Resources */,
+				13DC249E2D8D4E55002ED3E6 /* landmarkData.json in Resources */,
+				13DC247A2D8D244F002ED3E6 /* Assets.xcassets in Resources */,
+				13DC247B2D8D244F002ED3E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +386,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DC247C2D8D244F002ED3E6 /* CircleImage.swift in Sources */,
+				13DC247D2D8D244F002ED3E6 /* ContentView.swift in Sources */,
+				13DC247E2D8D244F002ED3E6 /* MapView.swift in Sources */,
+				13DC24A22D8D536C002ED3E6 /* LandmarkList.swift in Sources */,
+				13DC24A42D8D54EC002ED3E6 /* LandmarkDetail.swift in Sources */,
+				13DC247F2D8D244F002ED3E6 /* ToDoListApp.swift in Sources */,
+				13DC24812D8D24D6002ED3E6 /* Landmark.swift in Sources */,
+				13DC24A02D8D4ED6002ED3E6 /* LandmarkRow.swift in Sources */,
+				13DC249C2D8D45D1002ED3E6 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +557,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,11 +585,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +711,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13770C222D79B77500E10265 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13770C242D79B90A00E10265 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13770C222D79B77500E10265 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		13770C262D79B90A00E10265 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13770C222D79B77500E10265 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 13770BDC2D79A3F700E10265 /* Project object */;
 }
