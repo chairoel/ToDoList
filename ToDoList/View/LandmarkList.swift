@@ -24,7 +24,7 @@ struct LandmarkList: View {
                 }
             }
         } detail: {
-            Text("Hello Details")
+            Text("Select Landmark")
         }
     }
 }
