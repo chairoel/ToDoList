@@ -21,10 +21,10 @@ struct LandmarkList: View {
     var body: some View {
         NavigationSplitView {
             List {
-                Toggle(isOn: $showFavoritesOnly){
+                Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                
+
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
@@ -47,5 +47,5 @@ struct LandmarkList: View {
 }
 
 #Preview {
-    LandmarkList()
+    LandmarkList().environment(ModelData())
 }
