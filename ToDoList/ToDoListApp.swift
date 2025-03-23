@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct ToDoListApp: App {
+    @State private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            LandmarkList()
+            ContentView()
+                .environment(modelData)
         }
     }
 }
