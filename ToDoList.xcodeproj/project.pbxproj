@@ -39,6 +39,7 @@
 		13DC24B22D8FC5B4002ED3E6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24B12D8FC5B4002ED3E6 /* BadgeBackground.swift */; };
 		13DC24B42D8FE536002ED3E6 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24B32D8FE536002ED3E6 /* BadgeSymbol.swift */; };
 		13DC24B62D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24B52D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift */; };
+		13DC24B82D8FE63B002ED3E6 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24B72D8FE63A002ED3E6 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		13DC24B12D8FC5B4002ED3E6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		13DC24B32D8FE536002ED3E6 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		13DC24B52D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		13DC24B72D8FE63A002ED3E6 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -199,6 +201,7 @@
 				13DC24B12D8FC5B4002ED3E6 /* BadgeBackground.swift */,
 				13DC24B32D8FE536002ED3E6 /* BadgeSymbol.swift */,
 				13DC24B52D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift */,
+				13DC24B72D8FE63A002ED3E6 /* Badge.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DC247C2D8D244F002ED3E6 /* CircleImage.swift in Sources */,
+				13DC24B82D8FE63B002ED3E6 /* Badge.swift in Sources */,
 				13DC247D2D8D244F002ED3E6 /* ContentView.swift in Sources */,
 				13DC247E2D8D244F002ED3E6 /* MapView.swift in Sources */,
 				13DC24A62D8FBA17002ED3E6 /* FavoriteButton.swift in Sources */,
