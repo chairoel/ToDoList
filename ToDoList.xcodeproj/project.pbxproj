@@ -46,6 +46,7 @@
 		13DC24C42D91BA13002ED3E6 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24BF2D91BA13002ED3E6 /* HikeDetail.swift */; };
 		13DC24C52D91BA13002ED3E6 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24BE2D91BA13002ED3E6 /* GraphCapsule.swift */; };
 		13DC24C62D91BA13002ED3E6 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24C02D91BA13002ED3E6 /* HikeGraph.swift */; };
+		13DC24C92D91C27A002ED3E6 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24C82D91C27A002ED3E6 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		13DC24BF2D91BA13002ED3E6 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		13DC24C02D91BA13002ED3E6 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		13DC24C12D91BA13002ED3E6 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		13DC24C82D91C27A002ED3E6 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -213,6 +215,7 @@
 				13DC24A82D8FBACC002ED3E6 /* Helper */,
 				13DC24B92D8FE79B002ED3E6 /* Badge */,
 				13DC24C22D91BA13002ED3E6 /* Hikes */,
+				13DC24C72D91C249002ED3E6 /* Categories */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,14 @@
 				13DC24C12D91BA13002ED3E6 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		13DC24C72D91C249002ED3E6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24C82D91C27A002ED3E6 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DC247C2D8D244F002ED3E6 /* CircleImage.swift in Sources */,
+				13DC24C92D91C27A002ED3E6 /* CategoryHome.swift in Sources */,
 				13DC24B82D8FE63B002ED3E6 /* Badge.swift in Sources */,
 				13DC247D2D8D244F002ED3E6 /* ContentView.swift in Sources */,
 				13DC24C32D91BA13002ED3E6 /* HikeView.swift in Sources */,
