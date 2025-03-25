@@ -57,6 +57,7 @@
 		13DC24DB2D925D86002ED3E6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DA2D925D86002ED3E6 /* PageViewController.swift */; };
 		13DC24DD2D92625A002ED3E6 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */; };
 		13DC24DF2D92647F002ED3E6 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DE2D92647F002ED3E6 /* PageView.swift */; };
+		13DC24E72D92987F002ED3E6 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24E62D92987F002ED3E6 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		13DC24DA2D925D86002ED3E6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		13DC24DE2D92647F002ED3E6 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		13DC24E62D92987F002ED3E6 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -345,6 +347,7 @@
 				13DC24DA2D925D86002ED3E6 /* PageViewController.swift */,
 				13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */,
 				13DC24DE2D92647F002ED3E6 /* PageView.swift */,
+				13DC24E62D92987F002ED3E6 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				13DC24C32D91BA13002ED3E6 /* HikeView.swift in Sources */,
 				13DC24C42D91BA13002ED3E6 /* HikeDetail.swift in Sources */,
 				13DC24C52D91BA13002ED3E6 /* GraphCapsule.swift in Sources */,
+				13DC24E72D92987F002ED3E6 /* PageControl.swift in Sources */,
 				13DC24C62D91BA13002ED3E6 /* HikeGraph.swift in Sources */,
 				13DC24CD2D91C7B8002ED3E6 /* CategoryItem.swift in Sources */,
 				13DC247E2D8D244F002ED3E6 /* MapView.swift in Sources */,
