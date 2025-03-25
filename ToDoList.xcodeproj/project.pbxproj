@@ -54,6 +54,9 @@
 		13DC24D42D91CFE3002ED3E6 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D32D91CFE3002ED3E6 /* ProfileSummary.swift */; };
 		13DC24D62D91D170002ED3E6 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D52D91D170002ED3E6 /* HikeBadge.swift */; };
 		13DC24D82D9251D4002ED3E6 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */; };
+		13DC24DB2D925D86002ED3E6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DA2D925D86002ED3E6 /* PageViewController.swift */; };
+		13DC24DD2D92625A002ED3E6 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */; };
+		13DC24DF2D92647F002ED3E6 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24DE2D92647F002ED3E6 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,9 @@
 		13DC24D32D91CFE3002ED3E6 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		13DC24D52D91D170002ED3E6 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		13DC24DA2D925D86002ED3E6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		13DC24DE2D92647F002ED3E6 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -232,6 +238,7 @@
 				13DC24C22D91BA13002ED3E6 /* Hikes */,
 				13DC24C72D91C249002ED3E6 /* Categories */,
 				13DC24D02D91CF3D002ED3E6 /* Profiles */,
+				13DC24D92D925D62002ED3E6 /* PageView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -330,6 +337,16 @@
 				13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
+			sourceTree = "<group>";
+		};
+		13DC24D92D925D62002ED3E6 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				13DC24DA2D925D86002ED3E6 /* PageViewController.swift */,
+				13DC24DC2D92625A002ED3E6 /* FeatureCard.swift */,
+				13DC24DE2D92647F002ED3E6 /* PageView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +516,7 @@
 				13DC24CF2D91CF1E002ED3E6 /* Profile.swift in Sources */,
 				13DC247C2D8D244F002ED3E6 /* CircleImage.swift in Sources */,
 				13DC24C92D91C27A002ED3E6 /* CategoryHome.swift in Sources */,
+				13DC24DD2D92625A002ED3E6 /* FeatureCard.swift in Sources */,
 				13DC24B82D8FE63B002ED3E6 /* Badge.swift in Sources */,
 				13DC247D2D8D244F002ED3E6 /* ContentView.swift in Sources */,
 				13DC24C32D91BA13002ED3E6 /* HikeView.swift in Sources */,
@@ -512,11 +530,13 @@
 				13DC24D22D91CF5E002ED3E6 /* ProfileHost.swift in Sources */,
 				13DC24B02D8FC4AA002ED3E6 /* HexagonParameters.swift in Sources */,
 				13DC24BD2D8FED04002ED3E6 /* Hike.swift in Sources */,
+				13DC24DF2D92647F002ED3E6 /* PageView.swift in Sources */,
 				13DC24B62D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift in Sources */,
 				13DC24D82D9251D4002ED3E6 /* ProfileEditor.swift in Sources */,
 				13DC24B42D8FE536002ED3E6 /* BadgeSymbol.swift in Sources */,
 				13DC24A22D8D536C002ED3E6 /* LandmarkList.swift in Sources */,
 				13DC24A42D8D54EC002ED3E6 /* LandmarkDetail.swift in Sources */,
+				13DC24DB2D925D86002ED3E6 /* PageViewController.swift in Sources */,
 				13DC24B22D8FC5B4002ED3E6 /* BadgeBackground.swift in Sources */,
 				13DC24D62D91D170002ED3E6 /* HikeBadge.swift in Sources */,
 				13DC247F2D8D244F002ED3E6 /* ToDoListApp.swift in Sources */,
