@@ -14,15 +14,15 @@ struct ProfileHost: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            HStack{
+            HStack {
                 Spacer()
                 EditButton()
             }
-            
-            if editMore?.wrappedValue == .inactive{
+
+            if editMore?.wrappedValue == .inactive {
                 ProfileSummary(profile: modelData.profile)
             } else {
-                Text("Profile Editor")
+                ProfileEditor(profile: $draftProfile)
             }
         }
         .padding()

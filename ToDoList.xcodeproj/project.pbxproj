@@ -53,6 +53,7 @@
 		13DC24D22D91CF5E002ED3E6 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D12D91CF5E002ED3E6 /* ProfileHost.swift */; };
 		13DC24D42D91CFE3002ED3E6 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D32D91CFE3002ED3E6 /* ProfileSummary.swift */; };
 		13DC24D62D91D170002ED3E6 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D52D91D170002ED3E6 /* HikeBadge.swift */; };
+		13DC24D82D9251D4002ED3E6 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		13DC24D12D91CF5E002ED3E6 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		13DC24D32D91CFE3002ED3E6 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		13DC24D52D91D170002ED3E6 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -325,6 +327,7 @@
 			children = (
 				13DC24D12D91CF5E002ED3E6 /* ProfileHost.swift */,
 				13DC24D32D91CFE3002ED3E6 /* ProfileSummary.swift */,
+				13DC24D72D9251D4002ED3E6 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				13DC24B02D8FC4AA002ED3E6 /* HexagonParameters.swift in Sources */,
 				13DC24BD2D8FED04002ED3E6 /* Hike.swift in Sources */,
 				13DC24B62D8FE5B9002ED3E6 /* RotatedBadgeSymbol.swift in Sources */,
+				13DC24D82D9251D4002ED3E6 /* ProfileEditor.swift in Sources */,
 				13DC24B42D8FE536002ED3E6 /* BadgeSymbol.swift in Sources */,
 				13DC24A22D8D536C002ED3E6 /* LandmarkList.swift in Sources */,
 				13DC24A42D8D54EC002ED3E6 /* LandmarkDetail.swift in Sources */,
